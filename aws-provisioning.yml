@@ -1,0 +1,7 @@
+---
+- hosts: localhost
+  gather_facts: False
+  vars_files:
+    - group_vars/aws-provisioning_ec2.yml
+  roles:
+    - role: aws-provisioning_ec2

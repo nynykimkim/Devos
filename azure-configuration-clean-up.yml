@@ -3,8 +3,8 @@
   gather_facts: False
   become: true
   vars_files:
-    - group_vars/configuration-aws.yml
+    - group_vars/azure-configuration.yml
   tasks:
     - include_role:
-        name: aws-configuration
+        name: azure-configuration
         tasks_from: absent

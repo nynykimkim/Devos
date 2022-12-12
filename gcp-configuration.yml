@@ -3,6 +3,6 @@
   gather_facts: False
   become: true
   vars_files:
-    - group_vars/configuration-azure.yml
+    - group_vars/gcp-configuration.yml
   roles:
-    - role: azure-configuration
+    - role: gcp-configuration
