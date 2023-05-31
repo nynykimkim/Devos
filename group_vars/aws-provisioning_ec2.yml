@@ -1,9 +1,9 @@
 ---
-key_name: "hyein"
+key_name: "nyKeyPair"
 region: "ap-northeast-2"
 image: "ami-0a2778941dc6f2820"
-sec_group: "sg-01f61050e58083d6e"
+sec_group: "sg-44d5152f"
 vpc_subnet_id: "subnet-1af11756"
-instance_name: "hiansibleprovisioning"
+instance_name: "ny_instance_name"
 instance_type: "t2.micro"
 
